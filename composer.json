@@ -1,0 +1,28 @@
+{
+    "name": "andrewmarcio/chat_bot_whatsapp",
+    "description": "Estudo da api de chat whatsapp",
+    "type": "project",
+    "require": {
+        "coffeecode/router": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Márcio",
+            "email": "andrewmarcio21@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config" : {
+      "vendor-dir": "vendor"
+    },
+    "autoload": {
+      "psr-4": {
+        "App\\" : "app/"
+      },
+      "files" : [
+        "config/config.php",
+        "router/web.php"
+      ]
+    }
+}
