@@ -17,17 +17,15 @@ class ChatController
   }
 
   public function home(){
-    $phones = [
-      "phones" => [
-        ['name' => "Andrew Márcio", "chatid" => "5585989251561@c.us"],
-        ['name' => "Chico bioca", "chatid" => "5585977777777@c.us"],
-        ['name' => "Mateus", "chatid" => "5585988317266@c.us"],
-        ['name' => "Do vale", "chatid" => "5585986292630@c.us"],
-        ['name' => "Dibrajonson", "chatid" => "5585985182861@c.us"],
-        ['name' => "Jhonata", "chatid" => "5585987126132@c.us"],
-      ]
+
+    // model users name, chatid, profile: caminho da imagem de perfil
+    $users = file_get_contents('database/teste/users.json');
+    $data = json_decode($users, true);
+
+    $users = [
+      "users" => $data
     ];
-    return view('home', $phones);
+    return view('home', $users);
   }
 
   public function group($author)

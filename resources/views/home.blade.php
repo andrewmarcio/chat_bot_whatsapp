@@ -37,13 +37,15 @@
           </div>
           <div class="row">
             <ul class="list-group w-100">
-              @foreach($phones as $key => $phone)
-              <li class="list-group-item border-top border-bottom" style="border-style:none">
-                <div class="row">
-                  <img src="storage/img/user.png" alt="" width="32" height="32">
-                  <a class="ml-4" id="chatMessage" href="#" data-chatid="{{$phone['chatid']}}">{{$phone['name']}}</a>
-                </div>
-              </li>
+              @foreach($users as $key => $user)
+              <a class="ml-2" id="chatMessage" href="#" data-chatid="{{$user['chatid']}}">
+                <li class="list-group-item border-top border-bottom" style="border-style:none">
+                  <div class="row">
+                    <img src="{{$user['profile']}}" alt="" class="rounded-circle" width="64" height="64">
+                    <span class="m-3" style="font-size:20px;">{{$user['name']}}</span>
+                  </div>
+                </li>
+              </a>
               @endforeach
             </ul>
           </div>
@@ -54,11 +56,11 @@
           </div>
           <form id="firt-exemple-chat">
             <div class="form-group invisible" id="chat-message-user">
-              <label for="" id="chat-user"></label>
+              <label for="" id="chat-user" class="w-50"></label>
               <input type="hidden" name="chatid">
               <textarea class="form-control" name="message" id="message" rows="8" cols="80"></textarea>
+              <button type="submit" class="btn btn-primary btn-block mt-2">enviar</button>
             </div>
-            <button type="submit" class="btn btn-primary btn-block">enviar</button>
           </form>
         </div>
       </div>
