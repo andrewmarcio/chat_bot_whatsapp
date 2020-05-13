@@ -13,6 +13,7 @@ $router->namespace("App\Http\Controllers");
 
 $router->get('/', "ChatController:home");
 $router->post("/chat", "ChatController:sendMessage");
+$router->post("/chatid", "ChatController:welcome");
 
 // var_dump($router);
 
