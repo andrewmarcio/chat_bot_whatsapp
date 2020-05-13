@@ -1,0 +1,29 @@
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB096DAF83767516DC8","queueNumber":8}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB0268108DADC48D5C1","queueNumber":9}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB06C16F4D740829D5E","queueNumber":10}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB0AB291A95DDF49D15","queueNumber":11}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB0E258D0BC070BE658","queueNumber":12}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB0CD5D7D22FC67DFD4","queueNumber":13}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB0BF45D6C183AE7278","queueNumber":15}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB09B36A46CA082992C","queueNumber":17}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB0B0024EFE04E78A63","queueNumber":18}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB07A79B44A7C86B644","queueNumber":19}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB0D4DB900372CC8194","queueNumber":20}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB0182F40D3164F85A8","queueNumber":21}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB08F9097492D5A05F6","queueNumber":22}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB06A047110C493789E","queueNumber":23}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB0EF44329901867FCB","queueNumber":24}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB019F9DA468DA5D02C","queueNumber":25}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB04F8060705F034F7D","queueNumber":26}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB0B16CD509C24EB1C2","queueNumber":28}
+{"sent":false,"message":"Message was not sent: empty body. Please provide message text in body parameter in JSON POST."}
+{"sent":false,"message":"Wrong chatId format. Please use \"phone parameter\" or chatId from message history. chatId has format 79680123456@c.us or 79680123456-1471234567@g.us"}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB05F2A7AED26E69F38","queueNumber":29}
+{"sent":false,"message":"Message was not sent: empty body. Please provide message text in body parameter in JSON POST."}
+{"sent":false,"message":"Message was not sent: empty body. Please provide message text in body parameter in JSON POST."}
+{"sent":false,"message":"Message was not sent: empty body. Please provide message text in body parameter in JSON POST."}
+{"sent":false,"message":"Message was not sent: empty body. Please provide message text in body parameter in JSON POST."}
+{"sent":false,"message":"Message was not sent: empty body. Please provide message text in body parameter in JSON POST."}
+{"sent":true,"message":"Sent to 5585989251561@c.us","id":"true_558589251561@c.us_3EB067AB950E6B2A45CD","queueNumber":30}
+{"sent":false,"message":"Wrong chatId format. Please use \"phone parameter\" or chatId from message history. chatId has format 79680123456@c.us or 79680123456-1471234567@g.us"}
+{"sent":true,"message":"Sent to 5585988759706@c.us","id":"true_558588759706@c.us_3EB0BA6EB4568D0D4FB7","queueNumber":31}
